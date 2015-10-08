@@ -18,7 +18,7 @@ var bluemixHelperConfig = require('bluemix-helper-config');
 var global = bluemixHelperConfig.global;
 var configManager = bluemixHelperConfig.configManager;
 var callERS = require('./callERS.js');
-var methodOverride = require('method-override');
+//var methodOverride = require('method-override');
 var http = require('http');
 
 var VCAP_APPLICATION = JSON.parse(process.env.VCAP_APPLICATION || "{}");
