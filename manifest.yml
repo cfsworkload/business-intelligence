@@ -1,0 +1,28 @@
+---
+declared-services:
+  pipes-cloudant:
+    label: cloudantNoSQLDB
+    plan: Shared
+  pipes-dashdb:
+    label: dashDB
+    plan: Entry
+  pipes-dataworks:
+    label: DataWorks
+    plan: free
+  pipes-er:
+    label: erservice
+    plan: free
+applications:
+- name: pipes
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  random-route: true
+  disk_quota: 1024M
+  command: node --expose-gc server.js
+  path: .
+  services:
+  - pipes-cloudant
+  - pipes-dashdb
+  - pipes-dataworks
+  - pipes-er
