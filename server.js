@@ -111,24 +111,6 @@ var options = {
   cert: fs.readFileSync('development/certs/server/my-server.crt.pem')
 };
 
-var server = null;
-if (process.env.VCAP_APP_HOST){
-	server = require('http').createServer(app);
-	server.listen(port,
-                 process.env.VCAP_APP_HOST,
-                 connected);
-}else{
-	server = require('https').createServer(options, app);
-	server.listen(port,connected);
-}
-
-if ( wssConfigurator && server ){
-	wssConfigurator( server );
-}
-
-require("cf-deployment-tracker-client").track();
-
-
 // VCAP_SERVICES contains all the credentials of services bound to
 // this application. For details of its content, please refer to
 // the document or sample of each service.
@@ -185,3 +167,20 @@ process.on('SIGINT', function() {
 	ersConnection.disconnect();
 	console.log('Got SIGINT. Exiting server.');
 })
+
+var server = null;
+if (process.env.VCAP_APP_HOST){
+	server = require('http').createServer(app);
+	server.listen(port,
+                 process.env.VCAP_APP_HOST,
+                 connected);
+}else{
+	server = require('https').createServer(options, app);
+	server.listen(port,connected);
+}
+
+if ( wssConfigurator && server ){
+	wssConfigurator( server );
+}
+
+require("cf-deployment-tracker-client").track();
