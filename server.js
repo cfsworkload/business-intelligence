@@ -17,7 +17,7 @@ var morgan = require('morgan');// morgan is a middleware logger
 var bluemixHelperConfig = require('bluemix-helper-config');
 var global = bluemixHelperConfig.global;
 var configManager = bluemixHelperConfig.configManager;
-var callERS = require('callERS.js');
+var callERS = require('./callERS.js');
 //var methodOverride = require('method-override');
 var http = require('http');
 
