@@ -129,6 +129,42 @@ if ( wssConfigurator && server ){
 require("cf-deployment-tracker-client").track();
 
 
+// VCAP_SERVICES contains all the credentials of services bound to
+// this application. For details of its content, please refer to
+// the document or sample of each service.
+var services = JSON.parse(process.env.VCAP_SERVICES || "{}");
+// Returns array of services object enumerable properties
+// In this case it's the credentials used to connect to the bound service
+Object.keys(services).forEach(function(key) {
+	var name = key.toString().toUpperCase();
+	var credentials = services[key][0]['credentials'];
+	if (name.indexOf('ERSERVICE') !== -1) {
+		reportingUri = credentials['url'];
+		reportingUserId = credentials['userid'];
+		reportingPassword = credentials['password'];
+	}
+	else if ((name.indexOf("CLOUDANT") !== -1) && (bundleUri == null)) {
+
+		bundleUri = credentials['url'];
+	}
+	else if ((name.indexOf("MONGOLAB") !== -1) && (bundleUri == null)) {
+		bundleUri = credentials['uri'];
+	}
+	else if ((name.indexOf("MONGO") !== -1) && (bundleUri == null)) {
+		bundleUri = credentials['url'];
+	}
+	else if ((name.indexOf("SQLDB") !== -1) && (jdbcUri == null)) {
+		jdbcUri = credentials['jdbcurl'];
+		dsUserId = credentials['username'];
+        dsPassword = credentials['password'];
+	}
+	else if ((name.indexOf("DASHDB") !== -1) && (jdbcUri == null)) {
+		jdbcUri = credentials['jdbcurl'];
+		dsUserId = credentials['username'];
+        dsPassword = credentials['password'];
+	}
+});
+
 //set up the proxy to the reporting service
 var ersConnection = new callERS(reportingUri, reportingUserId, reportingPassword, bundleUri);
 ersConnection.connect();
@@ -143,3 +179,9 @@ app.use(function(req, res, next){
 		next();
 	}
 });
+
+// used to disconnect from reporting service when application is shutdown
+process.on('SIGINT', function() {
+	ersConnection.disconnect();
+	console.log('Got SIGINT. Exiting server.');
+})
