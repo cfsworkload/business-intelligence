@@ -41,7 +41,7 @@ function getReport(reportID, elementID, format) {
 	var reportElement = document.getElementById(elementID);
 
 	// While we load, show busy.gif
-	reportElement.innerHTML = "<span text-align:center'><img src='app/img/busy.gif'/></span>";
+	reportElement.innerHTML = "<span text-align:center'><img src='./app/img/busy.gif'/></span>";
 
 	// Construct the URL to retrieve the report from the server
 	var reportUrl = urlRoot + "definitions/" + reportID + "/reports/" + format;               
