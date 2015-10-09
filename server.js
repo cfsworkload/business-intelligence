@@ -127,3 +127,22 @@ if ( wssConfigurator && server ){
 }
 
 require("cf-deployment-tracker-client").track();
+
+
+//set up the proxy to the reporting service
+var ersConnection = new callERS(reportingUri, reportingUserId, reportingPassword, bundleUri);
+ersConnection.connect();
+
+// Load the index page
+app.get('/', routes.index);
+
+// Any request to application (other than for index) is handled with this routing call
+app.use(function(req, res, next){
+
+	if(req.path.indexOf("ers/v1") !== -1){
+		ersConnection.execute(req , res);
+	}
+	else{
+		next();
+	}
+});
