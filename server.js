@@ -111,6 +111,13 @@ var options = {
   cert: fs.readFileSync('development/certs/server/my-server.crt.pem')
 };
 
+// variables to be used for embedded reporting and dashDB connection
+var bundleUri = null;
+var jdbcUri = null;
+var reportingUri = "";
+var reportingUserId = "";
+var reportingPassword = "";
+
 // VCAP_SERVICES contains all the credentials of services bound to
 // this application. For details of its content, please refer to
 // the document or sample of each service.
