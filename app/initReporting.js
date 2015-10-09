@@ -9,14 +9,14 @@ var urlRoot = "/ers/v1/";
 var xRunLocation = "";
 
 /* load report styles css asynchronously */
-(function(){
+/*(function(){
 	var lnk = document.createElement("link");
 	lnk.rel='stylesheet';
 	lnk.type='text/css'; 
 	lnk.href = urlRoot + '~/schemas/GlobalReportStyles_10.css';
 	var h = document.getElementsByTagName("head");
 	h[0].appendChild(lnk);
-})();
+})();*/
 
 // Delete any runinstances that may be open when closing the browser
 window.onbeforeunload = function () {
