@@ -3,20 +3,19 @@
 <head>
   <meta charset="utf-8">
   <title>IBM Cloud Data Services | Simple Data Pipe</title>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-resource/angular-resource.js"></script>
   <script src="bower_components/angular-cookies/angular-cookies.js"></script>
   <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
   <script src="bower_components/lodash/dist/lodash.compat.js"></script>
   <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-  <script src="initReporting.js"></script>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap.icon-large.min.css">
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" type="text/css"/>
 
   <link rel="stylesheet" href="css/main.css" type="text/css" />
 
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
   <script src="bower_components/lodash/dist/lodash.min.js"></script>
@@ -24,7 +23,7 @@
   <script src="js/app.js"></script>
   <script src="js/pipes.js"></script>
 </head>
-<body onload="insertReports()">
+<body>
 <!-- start header -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 	    <div class="container-fluid">
@@ -61,9 +60,6 @@
 				Loading. Please Wait...
 			</div>
 <!-- end main -->
-
-			<div id="insertReport"></div>
-
 		</div>
 	</div>
 <!-- end content -->

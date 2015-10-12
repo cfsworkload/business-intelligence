@@ -92,5 +92,13 @@ function deleteRunInstance() {
 }
 
 function insertReports() {
-	getReport("57f95b2b5d3cf8fecf7b3e09e882cee7", "insertReport", "phtml");
+	var id = "";
+	if(!id) {
+		$("#insertReport").html("It looks like you haven't initialized and connected your report yet." +
+		"Check out the Read Me for more information on how to do that!");
+	}
+	else {
+		getReport(id, "insertReport", "phtml");
+	}
+
 }
