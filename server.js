@@ -117,6 +117,8 @@ var jdbcUri = null;
 var reportingUri = "";
 var reportingUserId = "";
 var reportingPassword = "";
+var dsUserId = "";
+var dsPassword = "";
 
 // VCAP_SERVICES contains all the credentials of services bound to
 // this application. For details of its content, please refer to
