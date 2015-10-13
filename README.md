@@ -6,10 +6,10 @@ The CRM Business Intelligence application demonstrates how you can use the **Clo
 **Embeddable Reporting** together with Salesforce to analyze, transform, and visualize your data.
 
 ## Introduction
-The Hybrid Data Storage application has been created so you can deploy it into your personal space after signing up for Bluemix and 
+The Simple Data Pipes application has been created so you can deploy it into your personal space after signing up for Bluemix and 
 DevOps Services. You will attach the **Cloudant NoSQL DB**, **DataWorks**, **dashDB**, and **Embeddable Reporting** services. Once the 
-application is set up, you will be able to interact with Salesforce data, viewing it with **dashDB** and creating reports in IBM's Cognos 
-Business Intelligence.
+application is set up, you will be able to interact with Salesforce data, viewing it with **dashDB** and creating reports in 
+Embeddable Reporting with IBM's Cognos Business Intelligence.
 
 ## Sign up for and log into Bluemix and DevOps
 
@@ -36,7 +36,8 @@ Next, you'll need to edit the launch configurations in order to deploy your webs
 2. In the top navigation bar, click the drop down menu and select the pencil edit to edit your launch config.
 ![EXAMPLE](images/Edit Launch.png)
 
-3. Check to make sure that your Target, Organization, and Space are correct. Then, enter a unique name in the **Application Name** field. This will be your domain route that you will use to navigate to your website once it's deployed. Enter the same name into the **Host** field.
+3. Check to make sure that your Target, Organization, and Space are correct. Then, enter a unique name in the **Application Name** field. 
+This will be your domain route that you will use to navigate to your website once it's deployed. Enter the same name into the **Host** field.
 4. Verify that the **Domain** field is correct, and click Save. Click the "Play" arrow right next to the drop down menu to deploy your application!
 ![EXAMPLE](images/Launch Config.png)
 
@@ -140,9 +141,18 @@ variable.
 ![EXAMPLE](images/Hub Jazz initReporting.png)
 3. Redeploy the site using the deploy button.
 
-After it's finished re-deploying, go back and refresh your web app, select the pipe, and select the visualization tab, you should see a visualization of some of the Salesforce 
+After it's finished re-deploying, go back and refresh your web app, select the pipe, and select the visualization tab, you should see a visualization of the Salesforce 
 sample data! You can edit the report or make your own using the **Enbeddable Reporting** service.
+
+# What does the App do?
+
+The CRM Business Intelligence app allows you to load data with the Simple Pipes App, view that data with dashDB, and 
+leverage IBM's Cognos to perform comprehensive analyzation and visualization.
+We've shown you how to connect the pipes from Salesforce all the way through to visualization with a dynamic map generated from your Salesforce data.
+Now, it's up to you to utilize those pieces to the fullest.
+
+If you wish to learn more about Embeddable Reporting, you can head here for another example.
+https://www.ng.bluemix.net/docs/services/EmbeddableReporting/index.html
 
 IBM offers several types of charts and data visualization tools that aren't in the default Cognos package. To learn more, go to 
 http://www.ibm.com/web/portal/analytics/analyticszone/home
-
