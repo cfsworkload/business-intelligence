@@ -148,6 +148,7 @@ variable.
 
 After it's finished re-deploying, go back and refresh your web app, select the pipe, and select the visualization tab, you should see a visualization of the Salesforce 
 sample data! You can edit the report or make your own using the **Enbeddable Reporting** service.
+![EXAMPLE](images/Pipes Visualization.png)
 
 # What does the App do?
 
