@@ -6,10 +6,10 @@ The CRM Business Intelligence application demonstrates how you can use the **Clo
 **Embeddable Reporting** together with Salesforce to analyze, transform, and visualize your data.
 
 ## Introduction
-The Simple Data Pipes application has been created so you can deploy it into your personal space after signing up for Bluemix and 
+The CRM Business Intelligence application has been created so you can deploy it into your personal space after signing up for Bluemix and 
 DevOps Services. You will attach the **Cloudant NoSQL DB**, **DataWorks**, **dashDB**, and **Embeddable Reporting** services. Once the 
-application is set up, you will be able to interact with Salesforce data, viewing it with **dashDB** and creating reports in 
-Embeddable Reporting with IBM's Cognos Business Intelligence.
+application is set up, you will be able to interact with Salesforce data using the Simple Data Pipes app, 
+view it with **dashDB** and create reports in Embeddable Reporting with IBM's Cognos Business Intelligence.
 
 ## Sign up for and log into Bluemix and DevOps
 
