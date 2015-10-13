@@ -88,7 +88,12 @@ or mouse over the Actions row and click the "View Properties" icon.
 4. Select Edit, and then change the JDBC URI, User Name, and User Password to the values that you copied down previously. Update.
 5. Now go to the "Report Definitions" tab and copy down the ID for USA-Map. 
 You'll need this later to connect your Simple Data Pipes website to display the visualization.
+
 ![EXAMPLE](images/Bluemix ER USA-Map.png)
+
+From the Report Definitions view, you can launch a Report by clicking the "Author" pencil icon within the Actions column. 
+This will take you into IBM's Cognos Business Intelligence, where you can create and edit queries, make visualizations, and more!
+While we'll be using USA-Map, we've included another Report with a sample query that you can view and make changes to if you wish.
 
 ## Create a Connected App in Salesforce
 
