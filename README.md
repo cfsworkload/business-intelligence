@@ -6,10 +6,10 @@ The CRM Business Intelligence application demonstrates how you can use the **Clo
 **Embeddable Reporting** together with Salesforce to analyze, transform, and visualize your data.
 
 ## Introduction
-The CRM Business Intelligence application has been created so you can deploy it into your personal space after signing up for Bluemix and 
+This CRM Business Intelligence sample application has been created so you can deploy it into your personal space after signing up for Bluemix and 
 DevOps Services. You will attach the **Cloudant NoSQL DB**, **DataWorks**, **dashDB**, and **Embeddable Reporting** services. Once the 
 application is set up, you will be able to interact with Salesforce data using the Simple Data Pipes app, 
-view it with **dashDB** and create reports in Embeddable Reporting with IBM's Cognos Business Intelligence.
+view it with **dashDB** and create reports in **Embeddable Reporting** with IBM's Cognos Business Intelligence.
 
 ## Sign up for and log into Bluemix and DevOps
 
@@ -19,9 +19,9 @@ IBM ID, create an alias, and register with Bluemix.
 
 ## Fork Project to a Personal DevOps Space
 
-The first step is to fork the publicly accessible repository hosted in http://hub.jazz.net to your personal DevOps space. Once you do 
+First, fork the publicly accessible repository hosted in http://hub.jazz.net to your personal DevOps space. [Once you do 
 this, you will be able to deploy the code to Bluemix and spin up instances of the CRM app and create attached instances of all the 
-required services.
+required services.]
 
 1. Navigate to [the tutorial's repository](https://hub.jazz.net/project/cfsworkload/pipes-app/overview).
 2. In top right of the page, click **Fork Project**. A pop-up menu will appear where you'll provide information about the forked project.
@@ -32,17 +32,21 @@ required services.
 
 Next, you'll need to edit the launch configurations in order to deploy your website. 
 
-1. After the project is successfully forked, click the "EDIT CODE" button in the upper right corner. 
-2. In the top navigation bar, click the drop down menu and select the pencil edit to edit your launch config.
+1. After the project is successfully forked, click **EDIT CODE** in the upper right corner. 
+2. In the top navigation bar, click the drop down menu and select the pencil symbol to edit launch configuration. 
+A dialog box will pop up and you will be required to enter information about where the code will be deployed to. 
+
 ![EXAMPLE](images/Edit Launch.png)
 
 3. Check to make sure that your Target, Organization, and Space are correct. Then, enter a unique name in the **Application Name** field. 
 This will be your domain route that you will use to navigate to your website once it's deployed. Enter the same name into the **Host** field.
-4. Verify that the **Domain** field is correct, and click Save. Click the "Play" arrow right next to the drop down menu to deploy your application!
-![EXAMPLE](images/Launch Config.png)
+4. Verify that the **Domain** field is correct, and click Save. Click the **Play** arrow right next to the drop down menu to deploy your application.
 
-5. Once the app is successfully deployed and running normally, go to Bluemix to check and see that your app has been created. 
-![EXAMPLE](images/Bluemix Console.png)
+  ![EXAMPLE](images/Launch Config.png)
+
+5. Once the app is successfully deployed and running normally, navigate to Bluemix to check and see that your app has been created. 
+
+  ![EXAMPLE](images/Bluemix Console.png)
 
 6. Head into the app dashboard by clicking the app. At the top of the page underneath your app name, there should be a field labelled "Routes".
 Click the route link to launch your web application.
