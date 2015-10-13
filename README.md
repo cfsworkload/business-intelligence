@@ -78,7 +78,7 @@ Now navigate to the **Embeddable Reporting** service using the left sidebar. Onc
 text field.
 ![EXAMPLE](images/Bluemix ER Cloudant Repo.png)
 
-1. Download the pipes-report.zip from the pipes-app workspace.
+1. Download the **pipes-report.zip** file from the pipes-app workspace.
 2. In the Embeddable Reporting service console, click "Import Package" and upload the previously downloaded pipes-report.zip.
 ![EXAMPLE](images/Bluemix ER Packages.png)
 3. You now need to configure the data source to point to your dashDB database instead. In the "Data Sources" tab, click the data source Name
