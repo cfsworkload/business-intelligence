@@ -87,6 +87,7 @@ or mouse over the Actions row and click the "View Properties" icon.
 4. Select Edit, and then change the JDBC URI, User Name, and User Password to the values that you copied down previously. Update.
 5. Now go to the "Report Definitions" tab and copy down the ID for USA-Map. 
 You'll need this later to connect your Simple Data Pipes website to display the visualization.
+![EXAMPLE](images/Bluemix ER USA-Map.png)
 
 ## Create a Connected App in Salesforce
 
@@ -136,6 +137,7 @@ Now that the data is connected to the report engine, we can visualize the data.
 1. In HubJazz, go into the **Edit Code** mode and navigate to /app/js/initReporting.js
 2. At the bottom of the file, in the **insertReports()** function, paste the USA-Map report ID from the **Embeddable Reporting** service as the "**id**" 
 variable.
+![EXAMPLE](images/Hub Jazz initReporting.png)
 3. Redeploy the site using the deploy button.
 
 After it's finished re-deploying, go back and refresh your web app, select the pipe, and select the visualization tab, you should see a visualization of some of the Salesforce 

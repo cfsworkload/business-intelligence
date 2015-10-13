@@ -17,7 +17,6 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  random-route: true
   disk_quota: 1024M
   command: node --expose-gc server.js
   path: .
