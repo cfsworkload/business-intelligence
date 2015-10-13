@@ -94,8 +94,8 @@ function deleteRunInstance() {
 function insertReports() {
 	var id = "";
 	if(!id) {
-		$("#insertReport").html("It looks like you haven't initialized and connected your report yet." +
-		"Check out the Read Me for more information on how to do that!");
+		$("#insertReport").html("<b>It looks like you haven't initialized and connected your report yet. " +
+		"Check out the Read Me for more information on how to do that!</b>");
 	}
 	else {
 		getReport(id, "insertReport", "phtml");
