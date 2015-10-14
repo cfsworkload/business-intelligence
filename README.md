@@ -30,8 +30,8 @@ First, fork the publicly accessible repository hosted in http://hub.jazz.net to 
 
 Next, you'll edit the launch configurations in order to deploy your website.
 
-1. After the project is successfully forked, click **EDIT CODE** in the upper right corner.
-2. In the top navigation bar, click the drop-down menu and select the pencil icon to edit the launch configuration. A dialog box will appear and you will be required to enter information about where the code will be deployed to.
+1. After the project is successfully forked, click **EDIT CODE** in the upper right corner of the screen.
+2. In the top navigation bar, click the drop-down menu and click the pencil icon to the right of the app name to edit the launch configuration. A dialog box will appear and you will be required to enter information about where the code will be deployed to.
 
   ![EXAMPLE](images/Edit Launch.png)
 
@@ -39,21 +39,21 @@ Next, you'll edit the launch configurations in order to deploy your website.
 4. Enter a unique name in the **Application Name** field. This creates the domain route that you will use to navigate to your website once the app is deployed.
 5. Enter the same application name into the **Host** field.
 6. Verify that the **Domain** field is correct, and click **Save**.
-7. Click the **Play** arrow right next to the drop down menu to deploy your application.
+7. Click the play icon to the right of the drop-down menu to deploy your application.
 
   ![EXAMPLE](images/Launch Config.png)
 
-8. Once the app successfully deploys, navigate to the Bluemix Dashboard to see that your app has been created.
+8. Once the app deploys, navigate to the Bluemix Dashboard. Your new app will appear in the Applications section.
 
   ![EXAMPLE](images/Bluemix Console.png)
 
-9. Clicking the app. At the top of the page underneath your app name, there should be a field labelled "Routes".
+9. Clicking the app. At the top of the page underneath your app name, there should be a field labelled **Routes**.
 Click the route link to launch your web application.
 10. Take a moment to check out your simple data pipes website! Then, create a new pipe from the left sidebar.
-11. In the **Type** field, select **SalesForce**. Give it a **Name**, and also a **Description** if you wish, then click **Proceed**.
+11. In the **Type** field, select **Salesforce**. Give it a **Name**, and also a **Description** if you wish, then click **Proceed**.
 ![EXAMPLE](images/Pipes Create New.png)
 
-12. Copy down the Callback URL in the following back. You'll need it later to connect SalesForce.
+12. Copy down the Callback URL in the following back. You'll need it later to connect Salesforce.
 ![EXAMPLE](images/Pipes Callback URL.png)
 
 We've got all that we need from the Simple Data Pipes web application at the moment, so let's head back to Bluemix.
@@ -119,15 +119,15 @@ You can sign up one at https://developer.salesforce.com/signup.
 6. Add all **Available OAuth Scopes** to **Selected OAuth Scopes**.
   ![EXAMPLE](images/Salesforce OAuth.png)
 7. Scroll down to the bottom of the page and **Save**, then click **Continue** on the following screen.
-8. In the next screen, copy your **Consumer Key** and **Consumer Secret**. You'll use these to finalize the connection in your pipes app. You will need to wait 2-10 minutes for SalesForce to successfully initialize your new Connected App.
+8. In the next screen, copy your **Consumer Key** and **Consumer Secret**. You'll use these to finalize the connection in your pipes app. You will need to wait 2-10 minutes for Salesforce to successfully initialize your new Connected App.
   ![EXAMPLE](images/Salesforce key_secret.png)
 
-## Load tables from SalesForce into your Simple Pipes app
+## Load tables from Salesforce into your Simple Pipes app
 
-We can now go back to your Pipes web app and load the tables into your database from SalesForce.
+We can now go back to your Pipes web app and load the tables into your database from Salesforce.
 
 1. Navigate to the **Connect** tab in the pipe that you created earlier.
-2. Enter the **Consumer key** and **Consumer secret**, then click **Connect to SalesForce**. You will need to wait for the Connected App to be initialized, which takes between 2-10 minutes. Once the pipe is connected to the app, you can load the sample SalesForce data into the app.
+2. Enter the **Consumer key** and **Consumer secret**, then click **Connect to Salesforce**. You will need to wait for the Connected App to be initialized, which takes between 2-10 minutes. Once the pipe is connected to the app, you can load the sample Salesforce data into the app.
   ![EXAMPLE](images/Pipes key_secret.png)
 3. Hit **Save and Continue** to set up the pipe.
 4. Select **All Tables** and click **Save and Continue**. This will give you access to all of the sample data.
