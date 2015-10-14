@@ -39,7 +39,7 @@ Next, you'll edit the launch configurations in order to deploy your app.
 4. Enter a unique name in the **Application Name** field. This creates the domain route that you will use to navigate to your website once the app is deployed.
 5. Enter the same application name into the **Host** field.
 6. Verify that the **Domain** field is correct, and click **Save**.
-7. Click the play icon to the right of the drop-down menu to deploy your application.
+7. Click the play icon to the right of the drop-down menu to deploy your application. This will deploy the application to BlueMix with all of the necessary services.
 
   ![EXAMPLE](images/Launch Config.png)
 
