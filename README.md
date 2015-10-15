@@ -23,7 +23,7 @@ First, fork the publicly accessible repository hosted in http://hub.jazz.net to 
 
 1. Navigate to [the tutorial's repository](https://hub.jazz.net/project/cfsworkload/pipes-app/overview).
 2. In top right of the page, click **Fork Project**. A pop-up menu will appear where you'll provide information about the forked project.
-3. In **Name your project**, enter a name for your project.
+3. In **Name your project**, enter a unique name for your project.
 4. Select an **Organization** and **Space** for your project, then click **CREATE**.
 
 ## Edit launch configurations
@@ -145,8 +145,8 @@ We can now go back to your Pipes app and load the Salesforce data into your data
 2. In the **Type** field, select **Salesforce**. Give it a **Name**, and also a **Description** if you wish, then click **Proceed**.
   ![EXAMPLE](images/Pipes Create New.png)
   
-3. Navigate to the **Connect** tab in the pipe that you created earlier.
-4. Enter the **Consumer key** and **Consumer secret**, then click **Connect to Salesforce**. You will need to wait for the connected app to be initialized, which takes between 2-10 minutes. Once the pipe is connected to the app, you can load the sample Salesforce data into the app.
+3. Navigate to the **Connect** tab in the pipe that you created earlier.how abou6t
+4. Enter the **Consumer key** and **Consumer secret**, then click **Connect to Salesforce**. You will need to wait for the Salesforce connected app you created earlier to finish being initialized. If it hasn't finished, an error will be displayed but you can try again. Once the pipe is connected to the app, you can load the sample Salesforce data into the app.
   ![EXAMPLE](images/Pipes key_secret.png)
   
 5. Hit **Save and Continue** to set up the pipe.
