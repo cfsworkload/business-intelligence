@@ -142,6 +142,8 @@ leverage IBM's Cognos to perform comprehensive analysis and visualization of you
 We can now go back to your Pipes app and load the Salesforce data into your database.
 
 1. Take a moment to check out your Simple Data Pipes website! Then, create a new pipe from the left sidebar.
+  ![EXAMPLE](images/Pipes.png)
+  
 2. In the **Type** field, select **Salesforce**. Give it a **Name**, and also a **Description** if you wish, then click **Proceed**.
   ![EXAMPLE](images/Pipes Create New.png)
   
