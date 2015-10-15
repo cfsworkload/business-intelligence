@@ -43,12 +43,13 @@ Next, you'll edit the launch configurations in order to deploy your app.
 
   ![EXAMPLE](images/Launch Config.png)
 
-8. Once the app deploys, navigate to the Bluemix Dashboard. Your new app will appear in the Applications section.
+8. While you wait for the app to deploy, download pipes-reports.zip from the workspace. You'll need this to create your reports.
+9. Once the app deploys, navigate to the Bluemix Dashboard. Your new app will appear in the Applications section.
 
   ![EXAMPLE](images/Bluemix Console.png)
 
-9. Click the tile for the app to enter the app Overview page.
-10. At the top of the page, underneath your app name, take a note of the route that your app has. It should be the name you gave the application earlier,
+10. Click the tile for the app to enter the app Overview page.
+11. At the top of the page, underneath your app name, take a note of the route that your app has. It should be the name you gave the application earlier,
 followed by the domain path. You'll need the route to connect to Salesforce in the next section.
 
 Now that you've deployed the app and have the route set up, you can head on over to Salesforce.
@@ -102,24 +103,23 @@ NoSQL DB and dashDB.
 
   ![EXAMPLE](images/Bluemix ER Cloudant Repo.png)
 
-5. Download the **pipes-report.zip** file from the pipes-app workspace.
-6. In the Embeddable Reporting service dashboard, click **Import Package** and import the pipes-report.zip file.
+5. In the Embeddable Reporting service dashboard, click **Import Package** and import the pipes-report.zip file.
 
   ![EXAMPLE](images/Bluemix ER Packages.png)
 
-7. You'll now configure the data source to point to your dashDB database. In the **Data Sources** tab, click the data source **Name**
+6. You'll now configure the data source to point to your dashDB database. In the **Data Sources** tab, click the data source **Name**
 or hover over the **Actions** row and click the **View Properties** icon.
 
   ![EXAMPLE](images/Bluemix ER Data Sources.png)
 
-8. Select **Edit**, and then change the **JDBC URI**, **User Name**, and **User Password** to the values copied from your environmental variables.
-9. Click **Update**.
-10. In the **Report Definitions** tab, copy the **ID** for USA-Map. You'll use this later to display data on a dynamic map of the USA.
+7. Select **Edit**, and then change the **JDBC URI**, **User Name**, and **User Password** to the values copied from your environmental variables.
+8. Click **Update**.
+9. In the **Report Definitions** tab, copy the **ID** for USA-Map. You'll use this later to display data on a dynamic map of the USA.
 While you'll be using a map of the USA, we've included another report with a sample query that you can view and make changes to if you wish.
 
  ![EXAMPLE](images/Bluemix ER USA-Map.png)
 
-11. From the Report Definitions view, you can launch a report by clicking the **Author** pencil icon within the **Actions** column.This will take you into IBM's Cognos Business Intelligence, where you can create and edit queries, make visualizations, and more.
+10. From the Report Definitions view, you can launch a report by clicking the **Author** pencil icon within the **Actions** column.This will take you into IBM's Cognos Business Intelligence, where you can create and edit queries, make visualizations, and more.
 
 ## Revise your code so it can display the report visualization
 You'll now use the DevOps Services IDE to edit your code to display the USA map.
