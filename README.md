@@ -95,7 +95,7 @@ NoSQL DB and dashDB.
   * dashDB `password`
   * dashDB `jdbcurl`
 
-  ![EXAMPLE](images/Bluemix Pipes EV dashDB 2.png)
+  ![EXAMPLE](images/Bluemix Pipes EV dashDB.png)
 
 3. Now, you'll click **Embeddable Reporting** in the left sidebar to set up the service.
 4. Enter the Cloudant URL in the **Repository URI** field.
