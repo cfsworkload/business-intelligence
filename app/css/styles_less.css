@@ -98,7 +98,8 @@ a:visited:hover {
 }
 /* Navbar / menu */
 nav.navbar {
-  background: #262324;
+  /*background: #262324;*/
+  background: #152935;
   border: none;
   border-radius: 0;
   min-height: 70px;

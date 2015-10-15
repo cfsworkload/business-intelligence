@@ -10,7 +10,6 @@ html, body {
 body {
   font-size: 12pt;
   background-image: none !important;
-  padding-top: 70px;
 }
 
 h1 {
@@ -46,7 +45,8 @@ section {
 	box-shadow: 0 1px 3px #000000;
 }
 nav.navbar {
-  min-height: 70px;
+  /*min-height: 70px;*/
+  font-size: 18px;
 }
 nav.navbar .navbar-brand {
   background: url('/img/IBM_CDS_Logo.png') no-repeat;
@@ -60,8 +60,20 @@ nav.navbar .navbar-brand a span {
   display: none;
 }
 
+.navbar-inverse {
+    background-color: #152935;
+    border-color: #5596e6;
+}
+
+.navbar-item {
+	color: white;
+	margin-top: 22px;
+	margin-bottom: 8px;
+}
+
 .sidebar {
-    background: none repeat scroll 0 0 #343031;
+    /*background: none repeat scroll 0 0 #343031;*/
+    background: none repeat scroll 0 0 #152935;
     border-right: 1px solid #eee;
     bottom: 0;
     display: block;
@@ -88,7 +100,8 @@ nav.navbar .navbar-brand a span {
 	background-color: transparent;
 }
 .nav-sidebar > li.active {
-	background-color: #111111;
+	/*background-color: #111111;*/
+	background-color: #2bbeaa;
 }
 .nav-sidebar > li > a {
     padding: 20px 20px 20px 30px;
@@ -106,7 +119,8 @@ nav.navbar .navbar-brand a span {
 }
 .nav-sidebar > li > a:hover,
 .nav-sidebar > li > a:focus {
-	background-color: #111111;
+	/*background-color: #111111;*/
+	background-color: #41d6c3;
 }
 .nav-sidebar > li.active > a,
 .nav-sidebar > li > a:focus {
@@ -270,4 +284,22 @@ tbody > tr.selectedRunDetailFINISHED > td {
     text-overflow: ellipsis;
     vertical-align: top;
     white-space: nowrap;
+}
+
+.navbar-left {
+	float: left !important;
+	margin-left: 15px;
+}
+
+.navbar-right {
+	float:right !important;
+	margin-right: 15px;
+}
+
+.navbar-header {
+	float: none;
+}
+
+.main {
+	
 }
