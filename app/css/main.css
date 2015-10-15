@@ -41,9 +41,9 @@ section {
 	background-image: url("/img/sprite.png") !important;
 }
 
-.navbar-fixed-top {
+/*.navbar-fixed-top {
 	box-shadow: 0 1px 3px #000000;
-}
+}*/
 nav.navbar {
   /*min-height: 70px;*/
   font-size: 18px;
