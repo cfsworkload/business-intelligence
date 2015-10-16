@@ -12,8 +12,8 @@ application is set up, you will be able to interact with Salesforce data using t
 view the data with **dashDB**, and create reports in **Embeddable Reporting** with IBM's Cognos Business Intelligence.
 
 If you already know how Bluemix works and don't want to go through the process of manually forking the project and editing the launch
-configuration, click the button below and begin at step 4, **Connect Embeddable Reporting to Cloudant NoSQL DB and dashDB**. Otherwise,
-begin with step 1, **Sign up for and log into Bluemix and DevOps**.
+configuration, click the button below to deploy your app. After the deployment is finished, jump to step 3: **Edit launch configuations**
+and begin with step 8.
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/cfsworkload/pipes-app)
 
