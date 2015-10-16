@@ -11,11 +11,16 @@ DevOps Services. You will attach the **Cloudant NoSQL DB**, **DataWorks**, **das
 application is set up, you will be able to interact with Salesforce data using the Simple Data Pipes app,
 view the data with **dashDB**, and create reports in **Embeddable Reporting** with IBM's Cognos Business Intelligence.
 
+If you already know how Bluemix works and don't want to go through the process of manually forking the project and editing the launch
+configuration, click the button below and begin at step 4, **Connect Embeddable Reporting to Cloudant NoSQL DB and dashDB**. Otherwise,
+begin with step 1, **Sign up for and log into Bluemix and DevOps**.
+
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/cfsworkload/pipes-app)
+
 ## Sign up for and log into Bluemix and DevOps
 
 Sign up for Bluemix at https://console.ng.bluemix.net and DevOps Services at https://hub.jazz.net. When you sign up, you'll create an
 IBM ID, create an alias, and register with Bluemix.
-
 
 ## Fork Project to a personal DevOps space
 
