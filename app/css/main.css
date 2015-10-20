@@ -175,7 +175,7 @@ li.panel > ul.nav > li > a {
     padding: 0 0 30px 50px;
     border-left-style: solid;
     border-left-width: 5px;
-    border-left-color: #0D82AA !important;
+    border-left-color: rgb(85, 150, 230) !important;
 }
 li.panel > ul.nav > li > a,
 li.panel > ul.nav > li > a:link, 
