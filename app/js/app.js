@@ -191,7 +191,7 @@ var mainApp = angular.module('dataMovingApp', [
 		        console.log("Pipe " + response._id + " successfully saved");
 		        setTimeout( function(){
 		        	pipesService.listPipes();
-		        	$('#createNewPipe').modal('hide');
+		        	$('#createNewPipe').modal('toggle');
 		        	$rootScope.$state.go("home.pipeDetails.tab", {tab:"connection", id: response._id }, { reload: true });
 		        },500);
 		      },
@@ -263,7 +263,7 @@ var mainApp = angular.module('dataMovingApp', [
           console.log("Pipe " + pipeid + " successfully removed");
           setTimeout( function(){
         	pipesService.listPipes();
-        	$('#deletePipe').modal('hide');
+        	$('#deletePipe').modal('toggle');
         	$rootScope.$state.go("about", null, { reload: true });
           },500);
         },
@@ -376,11 +376,12 @@ var mainApp = angular.module('dataMovingApp', [
         console.log("Pipe " + $scope.selectedPipe._id + " successfully saved");
         if ( !connect ){
           setTimeout( function(){
-            $('#savePipe').modal('hide');
             if(nextPageTab){
               $scope.goToNextPage(nextPageTab);
             }
-          },500);
+            //$(".modal-backdrop").css("display", "none");
+          }, 500);
+          $('#savePipe').modal('toggle');
         }else{
           $scope.connect();
         }

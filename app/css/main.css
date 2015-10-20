@@ -102,7 +102,7 @@ nav.navbar .navbar-brand a span {
 }
 .nav-sidebar > li.active {
 	/*background-color: #111111;*/
-	background-color: #2bbeaa;
+	background-color: #131D23;
 }
 .nav-sidebar > li > a {
     padding: 20px 20px 20px 30px;
@@ -121,7 +121,7 @@ nav.navbar .navbar-brand a span {
 .nav-sidebar > li > a:hover,
 .nav-sidebar > li > a:focus {
 	/*background-color: #111111;*/
-	background-color: #41d6c3;
+	background-color: #131D23;
 }
 .nav-sidebar > li.active > a,
 .nav-sidebar > li > a:focus {
@@ -167,7 +167,8 @@ li.panel > ul.nav {
 }
 li.panel > ul.nav > li.active,
 li.panel > ul.nav > li > a:focus {
-	font-weight: 500;
+	font-weight: 700;
+	font-size:18px;
 }
 
 li.panel > ul.nav > li > a {
@@ -186,7 +187,7 @@ li.panel > ul.nav > li > a:visited {
 }
 li.panel > ul.nav > li > a:hover,
 li.panel > ul.nav > li > a:focus {
-	background-color: #111111;
+	background-color: #131D23;
 }
 li.panel > ul.nav > li.disabled > a {
     color: #808080 !important;
