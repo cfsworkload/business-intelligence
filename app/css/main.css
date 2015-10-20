@@ -125,7 +125,7 @@ nav.navbar .navbar-brand a span {
 }
 .nav-sidebar > li.active > a,
 .nav-sidebar > li > a:focus {
-    border-left-color: #0D82AA !important;
+    border-left-color: rgb(85, 150, 230) !important;
 }
 
 .popover {
@@ -286,6 +286,17 @@ tbody > tr.selectedRunDetailFINISHED > td {
     text-overflow: ellipsis;
     vertical-align: top;
     white-space: nowrap;
+}
+
+.header {
+	padding: 15px 15px 0 15px;
+	color:white;
+	background-color: #152935;
+	position:fixed;
+	z-index:10;
+	width:100%;
+	top:0;
+	border-bottom: 1px solid rgb(85, 150, 230);
 }
 
 .navbar-left {
