@@ -71,7 +71,7 @@ var mainApp = angular.module('dataMovingApp', [
         		}
         	}
         })
-        .state('faq', {
+        /*.state('faq', {
         	parent: 'home',
         	url:'/faq',
         	views: {
@@ -79,7 +79,7 @@ var mainApp = angular.module('dataMovingApp', [
         			templateUrl: '/templates/pipeDetails.faq.html'
         		}
         	}
-        })
+        })*/
         .state('home.pipeDetails', {
             url:'/:id',
             resolve:{
