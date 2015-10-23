@@ -38,7 +38,7 @@
 					<a ng-if="!connected">Activity</a>
 				</li>
 				<li ng-class="{'disabled':!connected}" ui-sref-active="active">
-					<a ng-if="connected" ng-class="{'active':selectedPage === 'visualization'}" ng-click="selectedPage = 'visualization'" ui-sref="home.pipeDetails.tab({tab:'visualization', id:pipe._id})">Visualization</a>
+					<a ng-if="connected" ng-class="{'active':selectedPage === 'report'}" ng-click="selectedPage = 'report'" ui-sref="home.pipeDetails.tab({tab:'report', id:pipe._id})">Report</a>
 					<a ng-if="!connected">Report Visualization</a>
 				</li>
 			</ul>
