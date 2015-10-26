@@ -177,11 +177,29 @@ sample data.
   You can look at individual tables through the left navigation bar.
   ![EXAMPLE](images/dashDB Tables.png)
 
+## Use Embeddable Reporting to access your report and query
 
-We've shown you how to connect the pipes from Salesforce all the way through to visualization with a dynamic map generated from your Salesforce data. Now, it's up to you to utilize those pieces to the fullest.
+The Embeddable Reporting console and IBM Cognos Report Studio allows you to make changes to your query and visualization.
+
+1. To do this, head over to the service console within your Bluemix app dashboard
+
+2. Open your dashDB connection, and click the Report Definitions tab
+
+3. Click the "Pencil" icon on the report row underneath the "Actions" label.IBM Cognos Report Studio will launch in another ta
+![EXAMPLE](images/Bluemix Embeddable Reporting Console.png)
+
+4. You can see the table data and visualization in the main page, along with the query by going into the "View" tab
+![EXAMPLE](images/Embeddable Reporting.png)
+
+5. You can edit the query after accessing it in the "View" tab, and also make changes to the table data and visualization using the main workspace area and the left sidebar.  
+You can also add charts, graphs, visualizations, and more by clicking the toolbox icon in the sidebar to do so.
 
 If you want to learn more about Embeddable Reporting, you can go here for another example:
 https://www.ng.bluemix.net/docs/services/EmbeddableReporting/index.html.
 
-IBM offers several types of charts and data visualization tools that aren't in the default Cognos package. To learn more, go to
-http://www.ibm.com/web/portal/analytics/analyticszone/home.
+The visualization you've used in this walkthrough is a Dynamic Map visualization. 
+It, along with many others, is provided for free from IBM Analytics zone. 
+You can import them in the "Visualizations" tab in your dashDB connection. 
+To access these visualizations and more, go to http://www.ibm.com/web/portal/analytics/analyticszone/home.
+
+We've shown you how to connect the pipes from Salesforce all the way through to visualization with a dynamic map generated from your Salesforce data. Now, it's up to you to utilize those pieces to the fullest. 
