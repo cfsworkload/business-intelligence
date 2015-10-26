@@ -191,7 +191,7 @@ The Embeddable Reporting console and IBM Cognos Report Studio allows you to make
 4. You can see the table data and visualization in the main page, along with the query by going into the "View" tab.
 ![EXAMPLE](images/Embeddable Reporting.png)
 
-5. You can edit the query after accessing it in the "View" tab, and also make changes to the table data and visualization using the main workspace area and the left sidebar. 
+5. You can edit the query after accessing it in the "View" tab, and make changes to the table data and visualization using the main workspace area and the left sidebar. 
 You can also add charts, graphs, visualizations, and more by clicking the toolbox icon in the sidebar.
 
 If you want to learn more about Embeddable Reporting, you can go here for another example:
