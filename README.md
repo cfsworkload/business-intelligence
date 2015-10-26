@@ -171,11 +171,11 @@ sample data.
 
 ## View your data using dashDB
 
-  Now that the data is in the app, you can also view it in dashDB. If you want to take a look at it, navigate to the tile for the service in the Bluemix Dashboard and click **LAUNCH** in the top right.
-  ![EXAMPLE](images/Bluemix Pipes dashDB Console.png)
+Now that the data is in the app, you can also view it in dashDB. If you want to take a look at it, navigate to the tile for the service in the Bluemix Dashboard and click **LAUNCH** in the top right.
+![EXAMPLE](images/Bluemix Pipes dashDB Console.png)
 
-  You can look at individual tables through the left navigation bar.
-  ![EXAMPLE](images/dashDB Tables.png)
+You can look at individual tables through the left navigation bar.
+![EXAMPLE](images/dashDB Tables.png)
 
 ## Use Embeddable Reporting to access your report and query
 
