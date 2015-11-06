@@ -35,42 +35,12 @@ section {
     min-height: -webkit-calc(100% - 64px);
     min-height: -moz-calc(100% - 64px);
     min-height: calc(100% - 64px);
-    padding-top: 70px;
+    padding-top: 80px;
     padding-left: 40px;
     /*margin-top: 55px;*/
 }
 .sprite {
 	background-image: url("/img/sprite.png") !important;
-}
-
-/*.navbar-fixed-top {
-	box-shadow: 0 1px 3px #000000;
-}*/
-nav.navbar {
-  /*min-height: 70px;*/
-  font-size: 18px;
-}
-nav.navbar .navbar-brand {
-  background: url('/img/IBM_CDS_Logo.png') no-repeat;
-  display: inline-block;
-  width: 264px;
-  height: 17px;
-  padding: 0;
-  margin: 23px 0 0 20px !important;
-}
-nav.navbar .navbar-brand a span {
-  display: none;
-}
-
-.navbar-inverse {
-    background-color: #152935;
-    border-color: #5596e6;
-}
-
-.navbar-item {
-	color: white;
-	margin-top: 22px;
-	margin-bottom: 8px;
 }
 
 .sidebar {
@@ -289,31 +259,62 @@ tbody > tr.selectedRunDetailFINISHED > td {
     white-space: nowrap;
 }
 
-.header {
-	padding: 15px 15px 0 15px;
-	color:white;
-	background-color: #152935;
-	position:fixed;
-	z-index:10;
-	width:100%;
-	top:0;
-	border-bottom: 1px solid rgb(85, 150, 230);
-}
-
-.navbar-left {
-	float: left !important;
-	margin-left: 15px;
-}
-
-.navbar-right {
-	float:right !important;
-	margin-right: 15px;
-}
-
-.navbar-header {
-	float: none;
-}
-
 .landing-img {
 	width:100%;
+}
+
+.navbar {
+	background: #152935;
+	height: 50px;
+	line-height: 50px;
+	font-weight: 300;
+	font-size: 9pt;
+	z-index: 150;
+	min-width: 100%;
+	border-bottom: 1px solid #34534b;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	border-radius: 0;
+}
+
+.navbar .nb-left-area {
+	float: left;
+	height: 50px;
+	color: #ffffff;
+}
+
+.navbar .nb-button-link {
+	position: relative;
+	text-decoration: none;
+	color: #94a3ab;
+	margin: 0 10px 0 10px;
+	height: 50px;
+}
+
+.navbar .nb-left-area .nb-bluemix-logo {
+  vertical-align: top;
+  margin-top: 8px;
+  width: 32px;
+  height: 32px;
+}
+
+.glyphicon-menu-hamburger {
+	display: none;
+	font-size: 14px;
+    color: #94A3AB;
+    padding: 3px;
+    cursor: pointer;
+    margin-left: -7px;
+}
+
+.glyphicon-menu-hamburger:hover {
+	color: #5AAAFA;
+}
+
+.navbar .nb-left-area .nb-devopsservices-text {
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
 }
