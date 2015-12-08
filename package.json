@@ -1,7 +1,7 @@
 {
-  "name": "pipes",
-  "version": "0.2.0",
-  "description": "Tool for moving data to the cloud: e.g. Salesforce to Cloud",
+  "name": "pipes-app",
+  "version": "0.1.0",
+  "description": "Tool for moving data to the cloud: e.g. Salesforce to Cloud, analyzing with Cognos",
   "main": "server.js",
   "scripts": {
     "test": "NODE_CONFIG=tests/config/configYP ./node_modules/.bin/mocha ./tests",
@@ -17,7 +17,9 @@
     "stripe",
     "dashDb",
     "Cloudant",
-    "Data Movement"
+    "Data Movement",
+    "Cognos",
+    "embeddable reporting"
   ],
   "dependencies": {
     "bluemix-helper-config": "^0.1.5",
@@ -55,7 +57,17 @@
   "devDependencies": {
     "mocha": "*"
   },
-  "author": "david_taieb@us.ibm.com",
+  "author": "IBM Corp.",
+  "contributors": [
+    {
+      "name": "Nathan Chaney",
+      "email": "nrchaney@us.ibm.com"
+    },
+    {
+      "name": "Huy Ngo",
+      "email": "hdngo@us.ibm.com"
+    }
+  ],
   "license": "Apache-2.0",
   "readmeFilename": "README.md"
 }
