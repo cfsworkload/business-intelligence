@@ -7,7 +7,7 @@ declared-services:
     label: dashDB
     plan: Entry
   pipes-dataworks:
-    label: DataWorks
+    label: DataWorks_Gen3
     plan: Starter
   pipes-er:
     label: erservice
