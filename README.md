@@ -15,7 +15,7 @@ If you already know how Bluemix works and don't want to go through the process o
 configuration, click the **Deploy to Bluemix** button below to deploy your app. After the deployment is finished, jump to the **Edit launch configuations**
 section and begin with step 8.
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/cfsworkload/pipes-app)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/cfsworkload/business-intelligence.git)
 
 ## Sign up for and log into Bluemix and DevOps
 
