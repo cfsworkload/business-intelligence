@@ -8,7 +8,7 @@ declared-services:
     plan: Entry
   pipes-dataworks:
     label: DataWorks_Gen3
-    plan: Starter
+    plan: Starter-GA
   pipes-er:
     label: erservice
     plan: free
