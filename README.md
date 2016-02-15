@@ -24,12 +24,15 @@ IBM ID, create an alias, and register with Bluemix.
 
 ## Fork Project to a personal DevOps space
 
-First, fork the publicly accessible repository hosted in http://hub.jazz.net to your personal DevOps space. This will allow you to deploy the CRM app to Bluemix, create instances of the app, and attach services to the app.
+Our source code is stored on GitHub. To fork the project into your own repository navigate to https://github.com/cfsworkload/business-intelligence.
 
-1. Navigate to [the tutorial's repository](https://hub.jazz.net/project/cfsworkload/pipes-app/overview).
-2. In top right of the page, click **Fork Project**. A pop-up menu will appear where you'll provide information about the forked project.
-3. In **Name your project**, enter a unique name for your project.
-4. Select an **Organization** and **Space** for your project, then click **CREATE**.
+1. Navigate to https://hub.jazz.net/
+2. Click **CREATE PROJECT**
+3. Select **Link to an existing GitHub repository**
+4. Select **Link to a Git Repo on GitHub**
+5. Choose your newly forked project from the dropdown menu that appears.
+6. Choose your **Region**, **Organization**, and **Space**.  Generally the defaults will be sufficient.
+7. Click **CREATE**. This will fork your GitHub project into IBM DevOps services, and redirect you to your new project.
 
 ## Edit launch configurations
 
