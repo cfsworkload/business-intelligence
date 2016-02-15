@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ibm-cds-labs/pipes"
+    "url": "https://github.com/cfsworkload/business-intelligence"
   },
   "keywords": [
     "dataworks",
