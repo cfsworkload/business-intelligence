@@ -26,10 +26,10 @@ IBM ID, create an alias, and register with Bluemix.
 
 Our source code is stored on GitHub. To fork the project into your own repository navigate to https://github.com/cfsworkload/business-intelligence.
 
-1. Navigate to https://hub.jazz.net/
-2. Click **CREATE PROJECT**
-3. Select **Link to an existing GitHub repository**
-4. Select **Link to a Git Repo on GitHub**
+1. Navigate to https://hub.jazz.net/.
+2. Click **CREATE PROJECT**.
+3. Select **Link to an existing GitHub repository**.
+4. Select **Link to a Git Repo on GitHub**.
 5. Choose your newly forked project from the dropdown menu that appears.
 6. Choose your **Region**, **Organization**, and **Space**.  Generally the defaults will be sufficient.
 7. Click **CREATE**. This will fork your GitHub project into IBM DevOps services, and redirect you to your new project.
