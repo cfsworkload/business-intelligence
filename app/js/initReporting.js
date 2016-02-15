@@ -1,3 +1,7 @@
+// Copyright (c) 2016 IBM Corp. All rights reserved.
+// Use of this source code is governed by the Apache License,
+// Version 2.0, a copy of which can be found in the LICENSE file.
+
 /* initReporting.js
  * The following file is referenced within the client side views
  * Contains AJAX calls necessary to communicate with server-side script 

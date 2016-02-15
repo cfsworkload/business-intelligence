@@ -1,3 +1,7 @@
+// Copyright (c) 2016 IBM Corp. All rights reserved.
+// Use of this source code is governed by the Apache License,
+// Version 2.0, a copy of which can be found in the LICENSE file.
+
 'use strict';
 
 var cachedPipes = [];	//cache of existing pipes
